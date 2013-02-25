@@ -48,6 +48,14 @@
 		DB86C64516DB15A7008C1A34 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C63F16DB15A7008C1A34 /* DetailViewController.m */; };
 		DB86C64616DB15A7008C1A34 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C64116DB15A7008C1A34 /* MasterViewController.m */; };
 		DB86C64716DB15A7008C1A34 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C64116DB15A7008C1A34 /* MasterViewController.m */; };
+		DB86C65916DB56C8008C1A34 /* SBJsonParser+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C65816DB56C8008C1A34 /* SBJsonParser+Download.m */; };
+		DB86C65A16DB56C8008C1A34 /* SBJsonParser+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C65816DB56C8008C1A34 /* SBJsonParser+Download.m */; };
+		DB86C66116DB596E008C1A34 /* FileTree.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C66016DB596E008C1A34 /* FileTree.m */; };
+		DB86C66216DB596E008C1A34 /* FileTree.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C66016DB596E008C1A34 /* FileTree.m */; };
+		DB86C66516DB5BA3008C1A34 /* WebFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C66416DB5BA3008C1A34 /* WebFileLoader.m */; };
+		DB86C66616DB5BA3008C1A34 /* WebFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C66416DB5BA3008C1A34 /* WebFileLoader.m */; };
+		DB86C66916DB5CB5008C1A34 /* WebFileLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C66816DB5CB5008C1A34 /* WebFileLoaderTest.m */; };
+		DB86C66C16DB5EAB008C1A34 /* AssetUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C66B16DB5EAB008C1A34 /* AssetUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +115,16 @@
 		DB86C63F16DB15A7008C1A34 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = src/DetailViewController.m; sourceTree = "<group>"; };
 		DB86C64016DB15A7008C1A34 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = src/MasterViewController.h; sourceTree = "<group>"; };
 		DB86C64116DB15A7008C1A34 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = src/MasterViewController.m; sourceTree = "<group>"; };
+		DB86C65716DB56C8008C1A34 /* SBJsonParser+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SBJsonParser+Download.h"; path = "src/SBJsonParser+Download.h"; sourceTree = "<group>"; };
+		DB86C65816DB56C8008C1A34 /* SBJsonParser+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SBJsonParser+Download.m"; path = "src/SBJsonParser+Download.m"; sourceTree = "<group>"; };
+		DB86C65F16DB596E008C1A34 /* FileTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTree.h; path = src/FileTree.h; sourceTree = "<group>"; };
+		DB86C66016DB596E008C1A34 /* FileTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTree.m; path = src/FileTree.m; sourceTree = "<group>"; };
+		DB86C66316DB5BA3008C1A34 /* WebFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebFileLoader.h; path = src/WebFileLoader.h; sourceTree = "<group>"; };
+		DB86C66416DB5BA3008C1A34 /* WebFileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebFileLoader.m; path = src/WebFileLoader.m; sourceTree = "<group>"; };
+		DB86C66716DB5CB5008C1A34 /* WebFileLoaderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebFileLoaderTest.h; sourceTree = "<group>"; };
+		DB86C66816DB5CB5008C1A34 /* WebFileLoaderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebFileLoaderTest.m; sourceTree = "<group>"; };
+		DB86C66A16DB5EAB008C1A34 /* AssetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetUtils.h; sourceTree = "<group>"; };
+		DB86C66B16DB5EAB008C1A34 /* AssetUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +213,10 @@
 				DB86C60716DB02BD008C1A34 /* dlhtmlTests.h */,
 				DB86C60816DB02BD008C1A34 /* dlhtmlTests.m */,
 				DB86C60216DB02BD008C1A34 /* Supporting Files */,
+				DB86C66716DB5CB5008C1A34 /* WebFileLoaderTest.h */,
+				DB86C66816DB5CB5008C1A34 /* WebFileLoaderTest.m */,
+				DB86C66A16DB5EAB008C1A34 /* AssetUtils.h */,
+				DB86C66B16DB5EAB008C1A34 /* AssetUtils.m */,
 			);
 			path = dlhtmlTests;
 			sourceTree = "<group>";
@@ -245,6 +267,12 @@
 				DB86C63F16DB15A7008C1A34 /* DetailViewController.m */,
 				DB86C64016DB15A7008C1A34 /* MasterViewController.h */,
 				DB86C64116DB15A7008C1A34 /* MasterViewController.m */,
+				DB86C65716DB56C8008C1A34 /* SBJsonParser+Download.h */,
+				DB86C65816DB56C8008C1A34 /* SBJsonParser+Download.m */,
+				DB86C65F16DB596E008C1A34 /* FileTree.h */,
+				DB86C66016DB596E008C1A34 /* FileTree.m */,
+				DB86C66316DB5BA3008C1A34 /* WebFileLoader.h */,
+				DB86C66416DB5BA3008C1A34 /* WebFileLoader.m */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -374,6 +402,9 @@
 				DB86C64216DB15A7008C1A34 /* AppDelegate.m in Sources */,
 				DB86C64416DB15A7008C1A34 /* DetailViewController.m in Sources */,
 				DB86C64616DB15A7008C1A34 /* MasterViewController.m in Sources */,
+				DB86C65916DB56C8008C1A34 /* SBJsonParser+Download.m in Sources */,
+				DB86C66116DB596E008C1A34 /* FileTree.m in Sources */,
+				DB86C66516DB5BA3008C1A34 /* WebFileLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +426,11 @@
 				DB86C64316DB15A7008C1A34 /* AppDelegate.m in Sources */,
 				DB86C64516DB15A7008C1A34 /* DetailViewController.m in Sources */,
 				DB86C64716DB15A7008C1A34 /* MasterViewController.m in Sources */,
+				DB86C65A16DB56C8008C1A34 /* SBJsonParser+Download.m in Sources */,
+				DB86C66216DB596E008C1A34 /* FileTree.m in Sources */,
+				DB86C66616DB5BA3008C1A34 /* WebFileLoader.m in Sources */,
+				DB86C66916DB5CB5008C1A34 /* WebFileLoaderTest.m in Sources */,
+				DB86C66C16DB5EAB008C1A34 /* AssetUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
