@@ -166,6 +166,7 @@
 		DB86C5D716DB02BD008C1A34 /* dlhtml */ = {
 			isa = PBXGroup;
 			children = (
+				DB86C65616DB54E2008C1A34 /* src */,
 				DB86C61216DB152D008C1A34 /* json */,
 				DB86C5EF16DB02BD008C1A34 /* MasterViewController.xib */,
 				DB86C5F216DB02BD008C1A34 /* DetailViewController.xib */,
@@ -210,12 +211,6 @@
 		DB86C61216DB152D008C1A34 /* json */ = {
 			isa = PBXGroup;
 			children = (
-				DB86C63C16DB15A7008C1A34 /* AppDelegate.h */,
-				DB86C63D16DB15A7008C1A34 /* AppDelegate.m */,
-				DB86C63E16DB15A7008C1A34 /* DetailViewController.h */,
-				DB86C63F16DB15A7008C1A34 /* DetailViewController.m */,
-				DB86C64016DB15A7008C1A34 /* MasterViewController.h */,
-				DB86C64116DB15A7008C1A34 /* MasterViewController.m */,
 				DB86C61316DB154A008C1A34 /* SBJson.h */,
 				DB86C61416DB154A008C1A34 /* SBJsonParser.h */,
 				DB86C61516DB154A008C1A34 /* SBJsonParser.m */,
@@ -239,6 +234,19 @@
 				DB86C62716DB154A008C1A34 /* SBJsonWriter.m */,
 			);
 			name = json;
+			sourceTree = "<group>";
+		};
+		DB86C65616DB54E2008C1A34 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C63C16DB15A7008C1A34 /* AppDelegate.h */,
+				DB86C63D16DB15A7008C1A34 /* AppDelegate.m */,
+				DB86C63E16DB15A7008C1A34 /* DetailViewController.h */,
+				DB86C63F16DB15A7008C1A34 /* DetailViewController.m */,
+				DB86C64016DB15A7008C1A34 /* MasterViewController.h */,
+				DB86C64116DB15A7008C1A34 /* MasterViewController.m */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
